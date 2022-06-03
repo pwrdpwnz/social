@@ -1,0 +1,10 @@
+.main {
+  display: flex;
+  flex-direction: column;
+
+  &__background {
+    width: 100%;
+    height: 30%;
+    vertical-align: top;
+  }
+}

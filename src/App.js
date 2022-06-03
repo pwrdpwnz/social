@@ -8,8 +8,8 @@ const App = () => {
         <div className="wrapper">
             <Header/>
             <div className="user">
-                <Nav/>
-                <Main/>
+                <Nav />
+                <Main />
             </div>
         </div>
     )

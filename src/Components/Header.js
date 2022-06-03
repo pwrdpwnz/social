@@ -1,16 +1,16 @@
 import React from 'react';
 import logo from '../Images/cooker.svg'
-import '../Styles/App.scss'
+import headerStyle from '../Components/Header.module.scss'
 
 const Header = () => {
     return (
-        <header className="header">
-            <img src={logo} alt="" className="header__image"/>
-            <ul className="header__menu">
-                <li className="header__menu-list">Home</li>
-                <li className="header__menu-list">Music</li>
-                <li className="header__menu-list">Videos</li>
-                <li className="header__menu-list">Settings</li>
+        <header className={headerStyle.header}>
+            <img src={logo} alt="" className={headerStyle.header__image}/>
+            <ul className={headerStyle.header__menu}>
+                <li className={headerStyle.header__menu_list}>Home</li>
+                <li className={headerStyle.header__menu_list}>Music</li>
+                <li className={headerStyle.header__menu_list}>Videos</li>
+                <li className={headerStyle.header__menu_list}>Settings</li>
             </ul>
         </header>
     );

@@ -1,0 +1,28 @@
+$white: #fff;
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1400px;
+  margin: 0 auto;
+  background: #4d4444;
+  padding: 10px 20px;
+
+  &__image {
+    width: 70px;
+    height: 70px;
+  }
+
+  &__menu {
+    display: flex;
+
+    &_list {
+      margin-right: 20px;
+      list-style: none;
+      font-size: 15px;
+      font-family: "Sitka Heading", monospace;
+      color: $white;
+    }
+  }
+}

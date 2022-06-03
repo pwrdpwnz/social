@@ -1,0 +1,14 @@
+.rightNavbar {
+  max-width: 300px;
+  background: grey;
+  color: white;
+
+  &__menu {
+    padding: 15px 15px;
+  }
+
+  &__items {
+    list-style: none;
+    margin-bottom: 40px;
+  }
+}
