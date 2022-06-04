@@ -1,7 +1,10 @@
 .rightNavbar {
-  max-width: 300px;
-  background: grey;
+  max-width: 200px;
   color: white;
+  background: grey;
+  width: 30%;
+  display: flex;
+  justify-content: center;
 
   &__menu {
     padding: 15px 15px;
@@ -10,5 +13,11 @@
   &__items {
     list-style: none;
     margin-bottom: 40px;
+  }
+  &__navLinks.active {
+    color: gold;
+  }
+  .navLinks {
+     color: blueviolet;
   }
 }
