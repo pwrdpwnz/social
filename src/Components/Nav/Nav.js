@@ -1,11 +1,10 @@
 import React from 'react';
 import navStyle from './Nav.module.scss'
-import '../../Styles/App.scss'
+import '../../Styles/App.module.scss'
 
 let per1 = navStyle.active;
 let per2 = navStyle.navLinks;
 
-let x = `$per1 + $per2`
 
 const Nav = () => {
     return (

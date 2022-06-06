@@ -9,7 +9,10 @@ body {
   padding: 0;
 }
 
-
+.wrapper {
+  max-width: 1400px;
+  margin: 0 auto;
+}
 
 .user {
   display: flex;

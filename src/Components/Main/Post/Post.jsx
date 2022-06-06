@@ -3,8 +3,6 @@ import PostStyles from './Post.module.scss';
 
 const Post = (props) => {
 
-
-    
     return (
         <div className={PostStyles.Post}>
             {props.message}
