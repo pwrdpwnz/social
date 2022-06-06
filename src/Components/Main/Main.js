@@ -8,14 +8,14 @@ const Main = () => {
         <main className={mainStyles.main}>
             <img src={background} alt="" className={mainStyles.main__background}/>
             <textarea name="What is now?" id="" cols="30" rows="10">What is now?</textarea>
-            <span>Add</span>
+            <span className={mainStyles.add}>Add</span>
 
-            <Post />
-            <Post />
-            <Post />
-            <Post />
-            <Post />
-            <Post />
+            <Post message="hello" liked="100"/>
+            <Post message="how are u?"  liked="58"/>
+            <Post message="its my two post"  liked="10000"/>
+            <Post message="its my three post"  liked="887"/>
+            <Post message="its my four post" liked="15"/>
+            <Post message="its my five post" liked="349"/>
             
         </main>
     );
