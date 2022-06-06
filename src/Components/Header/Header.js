@@ -1,6 +1,6 @@
 import React from 'react';
-import logo from '../Images/cooker.svg'
-import headerStyle from '../Components/Header.module.scss'
+import logo from '../../Images/cooker.svg'
+import headerStyle from './Header.module.scss'
 
 const Header = () => {
     return (

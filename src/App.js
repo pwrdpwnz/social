@@ -1,7 +1,7 @@
 import './Styles/App.css';
-import Header from "./Components/Header";
-import Main from "./Components/Main";
-import Nav from "./Components/Nav";
+import Header from "./Components/Header/Header";
+import Main from "./Components/Main/Main";
+import Nav from "./Components/Nav/Nav";
 
 const App = () => {
     return (
